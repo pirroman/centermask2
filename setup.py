@@ -21,7 +21,7 @@ setup(
     description="CenterMask2 is an upgraded implementation on top of detectron2 beyond original CenterMask based on "
     "maskrcnn-benchmark. "
     "platform for object detection and segmentation.",
-    packages=find_packages(exclude=("configs", "demo", "datasets")),
+    packages=find_packages(exclude=("demo", "datasets")),
     python_requires=">=3.6",
     install_requires=["detectron2"],
     include_package_data=True,
